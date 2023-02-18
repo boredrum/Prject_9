@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Muller Regular';
+    font-style: normal;
+    font-weight: 200;
+    src:    local('Muller Regular')
+            url(https://bestfonts.pro/fonts_files/5c392d2dc8e4b404a029150d/files/MullerRegular.woff) format(woff),
+            url(https://bestfonts.pro/fonts_files/5c392d2dc8e4b404a029150d/files/MullerRegular.woff2) format(woff2);
+}
+@font-face {
+    font-family: 'Muller Bold';
+    font-style: bold;
+    font-weight: 800;
+    src: url(https://bestfonts.pro/fonts_files/5c392d2dc8e4b404a029150d/files/MullerBold.woff) format(woff),
+            url(https://bestfonts.pro/fonts_files/5c392d2dc8e4b404a029150d/files/MullerBold.woff2) format(woff2);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
+.first-screen{
+    height: 800px;
+    background-image: url(https://i.postimg.cc/9FR7FPbd/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body section header{
+    width: 1150px;
+    height: 100px;
+    margin: 0 auto;
+    white-space: nowrap;
+    display: flex;
+}
+.logo{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    color: #46b1de;
+    font-size: 24px;
+    font-weight: 100;
+    padding-top: 10px;
+}
+.nav_menu{
+    width: 630px;
+    height: 100px;
+    display: inline-block;
+    word-spacing: 60px;
+    padding-top: 70px;
+    text-align: end;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    word-spacing: 40px;
+    font-family: 'Muller Regular', sans-serif;
+}
+.contacts{
+    width: 440px;
+    height: 100px;
+    display: flex;
+    padding-top: 70px;
+    justify-content: end;
+}
+.contacts__headtxt{
+    display: inline-block;
+    margin-left: 10px;
+}
+.body{
+    width: 1150px;
+    margin: 0 auto 0;
+}
+.title{
+    width: 440px;
+    padding-top: 150px;
+}
+.title__description{
+    font-family: 'Muller Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.buttons{
+    padding-top: 50px;
+    display: flex;
+    width: 440px;
+}
+.button__call{
+    height: 50px;
+    width: 110px;
+    background-color: #46b1de;
+    display: inline-block;
+    margin-left: 20px;
+    border: solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+}
+.button__call:hover{
+    animation: show 3s infinite ease-in-out;
+    animation-duration: 3s;
+    animation-name: blink__call;
+    border: none;
+}
+@keyframes blink__call{
+    0% { background-color: #46b1de; border-radius: 0%;}
+    5% { background-color: #75bad7; border-radius: 3%;}
+    10% { background-color: #9acce1; border-radius: 5%;}
+    15% { background-color: #bddcea; border-radius: 10%;}
+    20% { background-color: #daebf2; border-radius: 15%;}
+    25% { background-color: #ffffff; border-radius: 20%;}
+    30% { background-color: #e8e6e6; border-radius: 25%;}
+    35% { background-color: #d6d5d5; border-radius: 30%;}
+    40% { background-color: #c5c5c5; border-radius: 35%;}
+    45% { background-color: #b0aeae; border-radius: 40%;}
+    50% { background-color: #9c9b9b; border-radius: 45%;}
+    55% { background-color: #b0aeae; border-radius: 40%;}
+    60% { background-color: #c5c5c5; border-radius: 35%;}
+    65% { background-color: #d6d5d5; border-radius: 30%;}
+    70% { background-color: #e8e6e6; border-radius: 25%;}
+    75% { background-color: #ffffff; border-radius: 20%;}
+    80% { background-color: #daebf2; border-radius: 15%;}
+    85% { background-color: #bddcea; border-radius: 10%;}
+    90% { background-color: #9acce1; border-radius: 5%;}
+    95% { background-color: #75bad7; border-radius: 3%;}
+    100% { background-color: #46b1de; border-radius: 0%;}
+}
+.button__services{
+    height: 50px;
+    width: 110px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 120px;
+    border: solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+}
+.button__services:hover{
+    animation: show 3s infinite ease-in-out;
+    animation-duration: 3s;
+    animation-name: blink__services;
+    border: none;
+}
+@keyframes blink__services{
+    0% { background-color: #46b1de; border-radius: 0%;}
+    5% { background-color: #75bad7; border-radius: 3%;}
+    10% { background-color: #9acce1; border-radius: 5%;}
+    15% { background-color: #bddcea; border-radius: 10%;}
+    20% { background-color: #daebf2; border-radius: 15%;}
+    25% { background-color: #ffffff; border-radius: 20%;}
+    30% { background-color: #e8e6e6; border-radius: 25%;}
+    35% { background-color: #d6d5d5; border-radius: 30%;}
+    40% { background-color: #c5c5c5; border-radius: 35%;}
+    45% { background-color: #b0aeae; border-radius: 40%;}
+    50% { background-color: #9c9b9b; border-radius: 45%;}
+    55% { background-color: #b0aeae; border-radius: 40%;}
+    60% { background-color: #c5c5c5; border-radius: 35%;}
+    65% { background-color: #d6d5d5; border-radius: 30%;}
+    70% { background-color: #e8e6e6; border-radius: 25%;}
+    75% { background-color: #ffffff; border-radius: 20%;}
+    80% { background-color: #daebf2; border-radius: 15%;}
+    85% { background-color: #bddcea; border-radius: 10%;}
+    90% { background-color: #9acce1; border-radius: 5%;}
+    95% { background-color: #75bad7; border-radius: 3%;}
+    100% { background-color: #46b1de; border-radius: 0%;}
+}
+.button__call a{
+    text-decoration: none;
+    font-family: 'Muller Regular', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 1em;
+    font-size: 16px;
+}
+.button__services a{
+    text-decoration: none;
+    font-family: 'Muller Regular', sans-serif;
+    color: #46b1de;
+    text-transform: uppercase;
+    padding-top: 1em;
+    font-size: 16px;
+}
+.bottom{
+    margin-top: 240px;
+    height: 80px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.bottom__card{
+    display: flex;
+    height: 100%;
+    width: 250px;
+    margin: 0 20px;
+    background-color: white;
+    border: solid;
+}
+.num__big{
+    font-family: 'Muller Bold', sans-serif;
+    color: #46b1de;
+    font-size: 65px;
+    margin: auto;
+    padding: 5px 10px;
+}
+.num__small{
+    font-family: 'Muller Regular', sans-serif;
+    font-size: 12px;
+    margin: auto;
+    padding: 10px 15px;
+}
