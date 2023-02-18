@@ -3,8 +3,8 @@
     font-style: normal;
     font-weight: 200;
     src:    local('Muller Regular')
-            url(./FONTS/Muller\ Regular/MullerRegular.woff) format(woff),
-            url(./FONTS/Muller\ Regular/MullerRegular.woff2) format(woff2);
+            url(https://github.com/boredrum/Prject_9/blob/main/FONTS/Muller%20Regular/MullerRegular.woff) format(woff),
+            url(https://github.com/boredrum/Prject_9/blob/main/FONTS/Muller%20Regular/MullerRegular.woff2) format(woff2);
 }
 @font-face {
     font-family: 'Muller Bold';
