@@ -3,8 +3,8 @@
     font-style: normal;
     font-weight: 200;
     src:    local('Muller Regular')
-            url(MullerRegular.woff) format(woff),
-            url(MullerRegular.woff2) format(woff2);
+            url(./MullerRegular.woff) format(woff),
+            url(./MullerRegular.woff2) format(woff2);
 }
 @font-face {
     font-family: 'Muller Bold';
