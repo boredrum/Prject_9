@@ -2,7 +2,7 @@
     font-family: 'Muller Regular';
     font-style: normal;
     font-weight: 200;
-    src:    local('Muller Regular')
+    src:
             url(./MullerRegular.woff) format(woff),
             url(./MullerRegular.woff2) format(woff2);
 }
