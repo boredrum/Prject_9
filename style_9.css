@@ -12,8 +12,8 @@
     font-style: bold;
     font-weight: 800;
     src: 
-            url(./MullerBold.woff2) format(woff2),
-            url(./MullerBold.woff) format(woff);
+            url(MullerBold.woff2) format(woff2),
+            url(MullerBold.woff) format(woff);
 }
 *{
     margin: 0;
