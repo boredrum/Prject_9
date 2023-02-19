@@ -3,15 +3,17 @@
     font-style: normal;
     font-weight: 200;
     src:
-            url(./MullerRegular.woff) format(woff),
-            url(./MullerRegular.woff2) format(woff2);
+        
+            url(./MullerRegular.woff2) format(woff2),
+            url(./MullerRegular.woff) format(woff);
 }
 @font-face {
     font-family: 'Muller Bold';
     font-style: bold;
     font-weight: 800;
-    src: url(https://bestfonts.pro/fonts_files/5c392d2dc8e4b404a029150d/files/MullerBold.woff) format(woff),
-            url(https://bestfonts.pro/fonts_files/5c392d2dc8e4b404a029150d/files/MullerBold.woff2) format(woff2);
+    src: 
+            url(./MullerBold.woff2) format(woff2),
+            url(./MullerBold.woff) format(woff);
 }
 *{
     margin: 0;
